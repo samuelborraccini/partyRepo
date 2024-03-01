@@ -50,7 +50,7 @@
 }
 
 .ivan-flex {
-  margin: 20px 0;
+  margin: 20px 5px;
 }
 
 *,
@@ -86,8 +86,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #818491;
+
   text-align: left;
-  background-color: #ffffff;
+  background-color: #f4edec;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -692,6 +693,13 @@ pre code {
 }
 
 .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.custom-row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -1952,6 +1960,9 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
+  .custom-row {
+    flex-direction: column-reverse;
+  }
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -6578,7 +6589,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #d0c9b4 !important;
+  background-color: #c8948b !important;
 }
 
 a.bg-dark:hover,
@@ -6637,7 +6648,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #e47a2e !important;
+  border-color: #b3746b !important;
 }
 
 .border-secondary {
@@ -9976,7 +9987,7 @@ a.text-dark:focus {
   height: 2px;
   bottom: 11px;
   left: calc(50% - 80px);
-  background: #ba3525;
+  background: #b3746b;
 }
 
 .section-title::after {
@@ -10095,7 +10106,7 @@ a.text-dark:focus {
     bottom: 0;
     left: 50%;
     margin-left: -1px;
-    background: #e47a2e;
+    background: #b3746b;
   }
   .timeline .row::before {
     content: "";
@@ -10105,7 +10116,7 @@ a.text-dark:focus {
     top: calc(50% - 15px);
     left: calc(50% - 15px);
     background: #ffffff;
-    border: 2px solid #e47a2e;
+    border: 2px solid #b3746b;
     transform: rotate(45deg);
     z-index: 1;
   }
