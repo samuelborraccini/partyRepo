@@ -350,7 +350,37 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
       </div>
     </div>
     <!-- About End -->
-
+<!-- Map Start -->
+<div class="container-fluid py-5" id="rsvp">
+  <div class="container py-5">
+    <div class="section-title position-relative text-center">
+      <h6
+        class="text-uppercase text-primary mb-3"
+        style="letter-spacing: 3px"
+      >
+        Ubicacion
+      </h6>
+      <h1 class="font-secondary display-4">Como llegar</h1>
+      <i class="far fa-heart text-dark"></i>
+      
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="text-center">
+          <img class="img-fluid mr-md-3" src="img/map.png" alt="" />
+          <p class="mb-2">Club las Cumbres, La Reina.</p>
+          <button
+          class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4"
+          onclick="redirect2()"
+        >
+          Google Maps
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Map End -->
     <!-- RSVP Start -->
     <div class="container-fluid" id="rsvp">
       <div class="container py-5">
@@ -370,7 +400,12 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
             <div class="text-center">
               <p class="mb-2">Enviame un correo: yulicalderon736@gmail.com</p>
               <p class="mb-2">para confirmar tu asistencia.</p>
-             
+              <button
+              class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4"
+              onclick="redirect()"
+            >
+              Confirmación!
+            </button>
             </div>
           </div>
         </div>
@@ -455,7 +490,10 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script>
       function redirect() {
-        window.open("https://forms.fillout.com/t/aFU4Gkk5ydus");
+        window.open("https://forms.fillout.com/t/fa8coaKNLtus");
+      }
+      function redirect2() {
+        window.open("https://maps.app.goo.gl/g3ZCyesy2JFhH9DA6?g_st=iw");
       }
     </script>
     <!-- Template Javascript -->
