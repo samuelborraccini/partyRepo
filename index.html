@@ -176,6 +176,38 @@
               </div>
             </div>
           </div>
+          <div
+            class="carousel-item position-relative"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img/cliente4.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">
+                  Emily Camacho Calderón <br/> Mis 15 años
+                </h1>
+                <div
+                  class="d-inline-block border-top border-bottom border-light py-3 px-4"
+                >
+                  <h3
+                    class="text-uppercase font-weight-normal text-white m-0"
+                    style="letter-spacing: 2px"
+                  >
+                    <div id="countdown4">Loading countdown...</div>
+                  </h3>
+                  <div class="text-white ivan-text">
+                    Santiago, Chile.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -285,8 +317,8 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
           <div class="galaContainer text-center">
             <div class="text-center ml-md-3">
               <img class="img-fluid" src="img/codigo-1.png" alt="" />
-              <h4 class="mb-3">Ceremonia y Fiesta</h4>
-              <p>Riguroso formal (smoking no necesario).</p>
+              <h4 class="mb-3">Tiempo de Gala</h4>
+              <p>Riguroso formal.</p>
               
             </div>
         </div>
@@ -311,9 +343,6 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
         </div>
         <div class="galaContainer2">
           <img class="img-fluid mr-md-3" src="img/9.png" alt="" />
-          <div class="ivan-text2 text-large">
-            No hay regalo más importante para nosotros que el de su compañía en este día tan especial, si su deseo es obsequiarnos algún presente sugerimos sea mediante un sobre.
-          </div>
         </div>
         
 
@@ -323,7 +352,7 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
     <!-- About End -->
 
     <!-- RSVP Start -->
-    <div class="container-fluid py-5" id="rsvp">
+    <div class="container-fluid" id="rsvp">
       <div class="container py-5">
         <div class="section-title position-relative text-center">
           <h6
@@ -339,13 +368,9 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="text-center">
-              <p class="mb-2">Niños Permitidos.</p>
-              <button
-                class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4"
-                onclick="redirect()"
-              >
-                Confirmación!
-              </button>
+              <p class="mb-2">Enviame un correo: yulicalderon736@gmail.com</p>
+              <p class="mb-2">para confirmar tu asistencia.</p>
+             
             </div>
           </div>
         </div>
@@ -366,7 +391,7 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
         </div>
         
         <div class="d-flex justify-content-center py-2">
-          <p class="text-white" href="#">Contacto</p>
+          <p class="text-white" href="#">yulicalderon736@gmail.com</p>
           <span class="px-3">|</span>
           <p class="text-white" href="#">+56 9 30957305</p>
         </div>
@@ -415,6 +440,8 @@ Tu compañía hará que esta noche sea mágica y llena de alegría. Acompáñame
           clearInterval(x);
           document.getElementById("countdown").innerHTML = "Es hoy!";
           document.getElementById("countdown2").innerHTML = "Es hoy!";
+          document.getElementById("countdown3").innerHTML = "Es hoy!";
+          document.getElementById("countdown4").innerHTML = "Es hoy!";
         }
       }, 1000);
     </script>
