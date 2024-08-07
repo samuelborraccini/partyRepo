@@ -53,6 +53,27 @@
   margin: 20px 5px;
 }
 
+.reverseBullet {
+  direction: rtl;
+  text-align: right;
+  list-style-position: inside;
+}
+
+.galaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galaContainer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText {
+  font-style: italic;
+}
 *,
 *::before,
 *::after {
